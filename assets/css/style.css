@@ -773,7 +773,7 @@ button:focus{
     animation: fade 2s;
 }
 .slide{
-    max-width: 100%;
+    width: 100%;
 
 }
 .caurosel .dots{
@@ -1180,11 +1180,11 @@ del{
     color: #000000;
     text-transform: uppercase;
     position: absolute;
-    top: 50%;
-    left: 18px;
+    top: 46%;
+    left: 17px;
     right: 0px;
     text-align: center;
-    line-height: 42px;
+    line-height: 55px;
 }
 .site-latest-content{
     display: flex;
