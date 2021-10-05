@@ -773,7 +773,7 @@ button:focus{
     animation: fade 2s;
 }
 .slide{
-    width: 100%;
+    max-width: 100%;
 
 }
 .caurosel .dots{
