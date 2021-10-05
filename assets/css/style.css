@@ -24,6 +24,7 @@ a{
 .container{
     max-width: 1140px;
     margin: 0 auto;
+    width: 100%;
 
 }
 .content{
@@ -39,15 +40,16 @@ a{
     align-items: center;
 }
 .content .right{
-display: flex;
+    display: flex;
+
     
 }
 .content div ul{
-    margin: 25px 0;
+    margin: 14px 0;
     display: flex;
     justify-content: space-between;
     align-items: center;
-    margin-left: -20px;
+    margin-left: -13px;
 }
 
 .content .left ul li {
@@ -67,8 +69,9 @@ display: flex;
 .adress-icon{
     display: flex;
     align-items: center;
+    margin-top: -1px;
+    margin-left: 1px;
 
- 
 }
 .adress-icon i {
     color: var(--color-main);
@@ -82,17 +85,19 @@ display: flex;
     text-align: center;
 }
 .adress-icon .info-adress{
-    margin-left: 10px;
+    padding-left: 10px;
 
 }
 .email-icon{
+
     display: flex;
     align-items: center;
+    margin-left: 4px;
+    margin-top: -1px;
   
 }
 .email-icon .info-email{
     margin-left: 10px;
-
 }
 .email-icon i{
     color: var(--color-main);
@@ -112,10 +117,11 @@ display: flex;
     display: flex;
     align-items: center;
 
+
 }
 .tele-icon .info-tele{
     margin-left: 10px;
-
+    margin-top: 1px;
 }
 .tele-icon i{
     color: var(--color-main);
@@ -139,37 +145,43 @@ display: flex;
     font-size: 12px;
 }
 .local img{
-    margin-right: 10px;
+    margin-right: 12px;
 
 }
 .local-info i{
     color: #a3a3a3;
-    margin-left: 30px;
+    font-size: 12px;
+    margin-left: 24px;
 }
 .local .local-info{
     display: flex;
     align-items: center;
-    margin-right: 10px;
 }
 /* main header */
 .content-mid{
-    height: 7.9em;
+    height: 6.1em;
     display: flex;
     width: 100%;
     justify-content: space-between;
     align-items: center;
 }
+.logo{
+    margin-left: 9px;
+    margin-top: 10px;
+}
 .logo img{
     width: 100%;
+    height: 100%;
+
 }
 .site-search-wrapper{
     display: flex;
     flex-wrap: wrap;
-    max-width: 645px;
+    max-width: 647px;
     width: 100%;
 }
 .search-header{
-    max-width: 555px;
+    max-width: 550px;
     position: relative;
     display: flex;
     width: 100%;
@@ -199,7 +211,7 @@ select::-ms-expand {
 .select {
     position: relative;
     display: flex;
-    width: 8.8em;
+    width: 9.45em;
     height: 2.5em;
     line-height: 3;
     background: transparent;
@@ -209,7 +221,7 @@ select::-ms-expand {
 }
 select {
     flex: 1;
-    padding: 0 1em;
+    padding: 0 16px;
     color: #8f8f8f;
     font-size: 12px;
     font-family: 'Poppins',sans-serif;
@@ -224,7 +236,7 @@ select {
     font-size: 12px;
     color: #8f8f8f;
     position: absolute;
-    right: 10%;
+    right: 17%;
     padding: 0 1em;
     cursor: pointer;
     pointer-events: none;
@@ -251,7 +263,7 @@ select {
     color: #8f8f8f;
     font-family: 'Poppins';
     font-weight: 500;
-    padding-left: 1.5em;
+    padding-left: 18px;
     background-color: transparent;
     line-height: 40px;
     height: 40px;
@@ -266,7 +278,7 @@ input:focus{
 .search{
     position: absolute;
     top: -1px;
-    right: 0;
+    right: -5px;
     border: 1px solid #0ca8c9;
     min-width: 57px;
     min-height: 42px;
@@ -319,8 +331,8 @@ button:focus{
     align-items: center;
 }
 .icon-setting{
-    padding-right: 10px;
-    padding-left: 20px;
+    padding-right: 18px;
+    padding-left: 23px;
 }
 .icon-setting a{
     text-decoration: none;
@@ -489,7 +501,7 @@ button:focus{
     font-size: 12px;
 }
 .main-menu{
-    padding: 20px 0;
+    padding: 15px 0px;
     display: flex;
     justify-content: space-between;
     align-items: center;
@@ -516,18 +528,24 @@ button:focus{
 }
 .menu-title{
     display: flex;
+
 }
 
 .menu-title li  {
-    margin-left: 90px;
+    margin-left: 65.65px;
     font-size: 14px;
     text-align: center;
     justify-content: space-between;
     align-items: center;
-    font-weight: 600;
+    font-weight: 700;
 }
 .menu-title li a{
     color: #ffffff;
+    margin-right: -8px;
+}
+
+.btn{
+    margin-left: 10px;
 }
 .btn a{
     display: flex;
@@ -537,7 +555,7 @@ button:focus{
 }
 .btn a span {
     color: #fff;
-    margin-left: 10px;
+    margin-left: 15px;
     font-size: 14px;
 }
 .dropdown{
@@ -649,29 +667,34 @@ button:focus{
     max-width: 655px;
     width: 100%;
     position: absolute;
-    top: 29%;
+    top: 28.7%;
+    left: 20.45%;
     z-index: 1;
 }
 .carousel-content-title{
     font-size: 70px;
     font-family: 'Poppins',sans-serif;
-    font-weight: 500;
+    font-weight:700;
     color: #000000;
     line-height: 90px;
 }
 .carousel-content-title strong{
     color: #0ca8c9;
-    font-weight: 500;
+    font-weight: 800;
+    font-size: 70px;
+    padding-left: 5px;
 }
+
 .sub-carousel-content{
-    margin-top: 25px;
+    margin-top: 16px;
     font-size: 18px;
     font-family: 'Poppins',sans-serif;
     font-weight: 500;
     color: #8f8f8f;
 }
 .shop-now{
-    margin-top: 50px;
+    padding-top: 45px;
+    padding-left: 2px;
     display: inline-block;
     border-bottom: 2px solid #0ca8c9;
 }
@@ -684,6 +707,7 @@ button:focus{
     text-decoration: none;
     line-height: 30px;
 }
+
 .border-button-left{
     width: 0;
     height: 0;
@@ -744,13 +768,13 @@ button:focus{
 .caurosel .caurosel-item--hidden{
     display: none;
 }
-.caurosel .caurosel-item img{
-    width: 100%;
-    height: auto;
-}
 .caurosel .caurosel-item.active{
     display: block;
     animation: fade 2s;
+}
+.slide{
+    width: 100%;
+
 }
 .caurosel .dots{
     cursor: pointer;
@@ -791,22 +815,24 @@ button:focus{
     background: transparent;
     padding: 0;
     position: relative;
-    margin: 0 20px;
+    margin: 0 10px;
 }
     
 
 /* service */
 .factoty-content-wrapper{
     max-width: 25%;
+    margin-left: 40px;
+    padding-bottom:  8px;
 }
 .medy-factory{
-    margin-top: 55px;
-    margin-bottom: 50px;
+   padding: 55px;
 }
 .factoty-content{
     display: flex;
     flex-wrap: wrap;
-    justify-content: space-around;
+    margin-left: -35px;
+
 }
 .icon-fact{
     display: table-cell;
@@ -840,7 +866,7 @@ button:focus{
 }
 /* ------------banner----------------- */
 .medy-banner{
-    margin-bottom: 55px;
+    margin-bottom: 45px;
 }
 .medy-banner-wrapper{
     display: flex;
@@ -849,9 +875,8 @@ button:focus{
 /* countdown */
 #countdown{
     position: absolute;
-    top: 60%;
-    left: 1em;
-    right: 1em;
+    top: 63%;
+    left: 27%;
     text-align: center;
     z-index: 3;
 }
@@ -859,21 +884,21 @@ button:focus{
     display: inline-block;
     list-style: none;
     text-transform: uppercase;
-    margin: 0 10px;
+    margin: 0 5px;
     font-family: 'Poppins',sans-serif;
     font-size: 12px;
     font-weight: 600;
     color: #000000;
 
     background-color: #ffffff;
-    min-width: 60px;
+    min-width: 62px;
     min-height: 62px;
 }
 #countdown ul li span{
     display: block;
     color: #0ca8c9;
     font-size: 21px;
-    padding-top: .2em;
+    padding-top: .3em;
 }
 .hot-deal{
     flex: 0 0 58.3%;
@@ -892,12 +917,13 @@ button:focus{
     border: 1px solid #f0f0f0;
     max-width: 653px;
     width: 100%;
+    padding-left: 15px;
 }
 .text-product-hotdeal{
     position: absolute;
-    bottom: 40px;
-    left: 15px;
-    right: 15px;
+    bottom: 45px;
+    left: 6px;
+    right: 0px;
     text-align: center;
     z-index: 4;
 }
@@ -935,13 +961,19 @@ button:focus{
     vertical-align: middle;
     padding-right: 20px;
 }
+.img-discount a img {
+    padding-top: 8px;
+}
+.img-accessories a img{
+padding-top: 14px;
+}
 .discount{
     position: relative;
 }
 .discount-content{
     position: absolute;
-    top: 20%;
-    left: 50px;
+    top: 22%;
+    left: 55px;
 }
 .discount-per{
     font-size: 60px;
@@ -979,8 +1011,8 @@ button:focus{
 }
 .accessories-content{
     position: absolute;
-    top: 35%;
-    left: 50px;
+    top: 32%;
+    left: 60px;
 }
 .accessories-title{
     font-size: 30px;
@@ -1015,8 +1047,8 @@ button:focus{
     font-weight: 600;
     text-transform: uppercase;
     position: absolute;
-    top: 26%;
-    left: 5px;
+    top: 24%;
+    left: 10px;
     line-height: 42px;
 }
 .productselling-title{
@@ -1035,9 +1067,9 @@ button:focus{
 .site-products-sell{
     flex: 1 0 22%;
     max-width: 25%;
-    margin-bottom: 25px;
+    margin-bottom: 60px;
     position: relative;
-    padding: 0 14.5px 0 15px;
+    padding:0 17px 0 18px;
 }
 .img-product{
     padding: 37px 0 40px;
@@ -1064,10 +1096,10 @@ button:focus{
     font-size: 13px;
     font-family: 'Poppins',sans-serif;
     font-weight: 600;
-    margin-top: 5px;
+    margin-top: 8px;
 }
 .price-sell span.sell-amount-product-del{
-    margin-right: 5px;
+    margin-right: 7px;
 }
 del{
     color: #696969;
@@ -1081,7 +1113,7 @@ del{
 }
 .nav-product{
     display: flex;
-    width: 70px;
+    width: 85px;
     justify-content: space-between;
 }
 .prev-product a, .next-product a{
@@ -1092,9 +1124,7 @@ del{
 .prev-product a:hover, .next-product a:hover{
     color: #0ca8c9;
 }
-.product-sell-wrapper{
-    margin-bottom: 30px;
-}
+
 /* add cart */
 .btn-add-to-cart{
     position: absolute;
@@ -1127,11 +1157,11 @@ del{
     height: auto;
     background-size: cover;
     background-repeat: no-repeat;
-    padding-bottom: 100px;
+    padding-bottom: 88px;
 }
 .new-text{
     padding-top: 100px;
-    padding-bottom: 80px;
+    padding-bottom: 25px;
     text-align: center;
     position: relative;
 }
@@ -1151,8 +1181,8 @@ del{
     text-transform: uppercase;
     position: absolute;
     top: 50%;
-    left: 0;
-    right: 0;
+    left: 18px;
+    right: 0px;
     text-align: center;
     line-height: 42px;
 }
@@ -1164,13 +1194,14 @@ del{
 .wrapper-latest-content{
     flex: 1 0 30%;
     max-width: 33.333333%;
-    padding: 0 15px;
+    padding: 6px 7px;
+    margin-left: 15px;
 }
 .img-new img{
     width: 100%;
 }
 .new-text-content{
-    margin-top: 20px;
+    margin-top: 16px;
 }
 .new-text-content .latest-content-title a{
     text-decoration: none;
@@ -1184,19 +1215,25 @@ del{
     font-family: 'Poppins',sans-serif;
     font-weight: 600;
     line-height: 24px;
-    margin-bottom: 10px;
+    margin-bottom: 8px;
+    padding-left: 4px;
+
 }
+
 .sub-new-content{
     font-size: 12px;
     font-family: 'Poppins',sans-serif;
     font-weight: 500;
     color: #8f8f8f;
+    padding-top: 3px;
+    padding-left: 4px;
+
 }
 .sub-new-content strong{
     color: #0ca8c9;
 }
 .newletters{
-    padding: 88px 0 99px 0;
+    padding: 95px 0 90px 0;
     background-color: #000000;
 }
 .text-new-letters{
@@ -1207,13 +1244,16 @@ del{
     font-family: 'Poppins',sans-serif;
     font-weight: 600;
     color: #ffffff;
+  
 }
 .sub-newletter{
     font-size: 14px;
     color: #ffffff;
     font-family: 'Poppins',sans-serif;
     font-weight: 500;
-    margin-top: 10px;
+    margin-top: 14px;
+    padding-left: 15px;
+
 }
 
 /* sign-up */
@@ -1223,7 +1263,7 @@ del{
 }
 
 .newletters{
-    padding: 88px 0 99px 0;
+    padding: 100px 0 99px 0;
     background-color: #000000;
 }
 .text-new-letters{
@@ -1234,24 +1274,21 @@ del{
     font-family: 'Poppins',sans-serif;
     font-weight: 600;
     color: #ffffff;
+    margin-top: -10px;
+    padding-left: 30px;
 }
-.sub-newletter{
-    font-size: 14px;
-    color: #ffffff;
-    font-family: 'Poppins',sans-serif;
-    font-weight: 500;
-    margin-top: 10px;
-}
+
 .form-text-email{
-    margin-top: 62px;
+    margin-top: 60px;
     text-align: center;
+    padding-left: 20px;
 }
 .example-text{
     position: relative;
 }
 .example-text input[type="text"]{
     margin: 0 auto;
-    width: 68.2%;
+    width: 66%;
     min-width: 320px;
     padding-left: 30px;
     border-radius: 40px;
@@ -1264,8 +1301,8 @@ del{
 }
 .example-text input[type="submit"]{
     position: absolute;
-    right: 15%;
-    top: 6px;
+    right: 181px;
+    top: 5px;
     border-radius: 30px;
     border: 1px solid #0ca8c9;
     background: #0ca8c9;
@@ -1284,15 +1321,16 @@ del{
 .wrapper-slick{
     display: flex;
     flex-wrap: wrap;
-    margin: 0 -15px;
+    margin-left: -10px;
+
 }
 .site-wrapper-brand{
     flex: 0 0 17%;
-    max-width: 20%;
-    padding: 0 15px;
+    max-width: 18%;
+    margin-left: 34px;
 }
 .brands{
-    padding: 50px 0;
+    padding: 60px 0;
 }
 .img-brands{
     background-color: #ffffff;
@@ -1304,18 +1342,18 @@ del{
 /*-------------------------------------- footbrand------------------------------------------------------------------------------------------ */
 .footer-top{
     background-color: #f2f2f2;
-    padding-bottom: 40px;
+    padding-bottom: 50px;
 }
 .footer-top-content{
     display: flex;
     justify-content: space-between;
-    margin: 0 -15px;
+    margin: 0 -5px;
 }
 .contact-us-footer, .company-footer, .categories-footer, .quick-link{
     flex: 0 0 23%;
     max-width: 25%;
     padding: 0 15px;
-    margin-top: 50px;
+    margin-top: 55px;
 }
 .footer-top-title{
     font-size: 18px;
@@ -1323,31 +1361,35 @@ del{
     font-weight: 600;
     color: #000000;
     text-transform: uppercase;
-    text-align: center;
+    padding-left: 90px;
+
 }
-.contact-us-footer .footer-top-title{
+.contact-us-footer .footer-top-title1{
     text-align: left;
-}
-.content-footer-wrapper{
-    margin-top: 20px;
+    font-size: 18px;
+    font-family: 'Poppins',sans-serif;
+    font-weight: 600;
+    text-transform: uppercase;
 }
 .menu-footer ul{
     display: block;
-    padding-left: 90px;
+    padding-left: 97px;
+    padding-top: 8px;
 }
 .categories-footer .menu-footer ul{
-    padding-left: 78px;
+    padding-left: 95px;
 }
 .quick-link .menu-footer ul{
-    padding-left: 78px;
+    padding-left: 92px;
 }
-.company-footer .content-footer-wrapper, .categories-footer .content-footer-wrapper, .quick-link .content-footer-wrapper {
-    margin-top: 10px;
+.sub-contact-us{
+   padding-top: 18px;
 }
+
 .sub-contact-us a{
     display: flex;
-    margin-bottom: 10px;
     width: 100%;
+    padding-bottom: 10px;
 }
 .sub-contact-us a span.icon-location-pin, .sub-contact-us a span.icon-mail-envelope-closed, .sub-contact-us a span.icon-phone{
     color: #20acca;
@@ -1368,7 +1410,8 @@ del{
     color: #0ca8c9;
 }
 .social-icon{
-   padding-top: 20px;
+    padding-top: 20px;
+    padding-left: 10px;
 }
 .social-icon a{
     margin-right: 25px;
@@ -1394,11 +1437,15 @@ del{
 }
 .bottom2{
     display: flex;
-    margin-top: 20px;
-    margin-bottom: 20px;
+    margin-top: 18px;
+    padding-left: 15px;
+    padding-bottom: 20px;
     justify-content: space-between;
 
     align-items: center;
+}
+.bottom2 img{
+    margin-right: -10px;
 }
 .bottom2 p {
     font-size: 12px;
@@ -1441,9 +1488,12 @@ del{
         margin-top: 10px;
     }
     .carousel-content-title{
-        width: 65%;
+        width: 70%;
         font-size: 45px;
         line-height: 70px;
+    }
+    .carousel-content-title strong{
+        font-size: 45px;
     }
     
     .shop-now{
@@ -1454,7 +1504,7 @@ del{
         padding: 10px;
     }
     .factoty-content-wrapper{
-        max-width: 25%;
+        max-width: 20%;
     }
     /* banner  */
     .banner{
@@ -1502,6 +1552,9 @@ del{
     .quick-link {
         flex: 0 0 21%;
         padding: 0 0;
+    }
+    .footer-top-title{
+        padding-left: 55px;
     }
 }
 
@@ -1555,9 +1608,9 @@ del{
         margin-top: 25px;
     }
     .factoty-content-wrapper{
-        max-width: 50%;
-        flex: 0 0 50%;
-        padding-top:15px;
+        max-width: 42%;
+    flex: 0 0 40%;
+    padding-top: 15px;
     }
     .icon-fact a img{
         vertical-align: middle;
@@ -1637,13 +1690,13 @@ del{
     flex: 1 0 27%;
     max-width: 27.333333%;
     padding: 0 15px;
-    margin-left: 15px;
+    margin-left: 16px;
     }
     .sub-carousel-content{
         margin-top: 20px;
     }
     .site-wrapper-brand {
-        max-width: 16%;
+        max-width: 15%;
     }
     .icon-fact{
         vertical-align: top;
@@ -1657,6 +1710,10 @@ del{
         /* footer */
         .contact-us-footer .footer-top-title{
             text-align: center;
+            
+        }
+        .footer-top-title{
+            padding: 0;
         }
         .footer-top-content{
             flex-wrap: wrap;
@@ -1666,13 +1723,13 @@ del{
             margin-left: 10px;
         }
         .company-footer .content-footer-wrapper .menu-footer ul {
-            padding-left: 40px;
+            padding-left: 0px;
         }
         .categories-footer .content-footer-wrapper .menu-footer ul{
-            padding-left: 30px;
+            padding-left: 0px;
         }
         .quick-link .content-footer-wrapper .menu-footer ul{
-            padding-left: 26px;
+            padding-left: 0px;
         } 
         .quick-link {
             flex: 0 0 20%;
@@ -1680,7 +1737,7 @@ del{
         }
         .contact-us-footer, .company-footer, .categories-footer, .quick-link{
             flex: 1 0 20%;
-            max-width: 21%;
+            max-width: 30%;
             margin-top: 50px;
             margin-bottom: 20px;
         
@@ -1748,9 +1805,11 @@ del{
         margin-top: 15px;
     }
     .shop-now{
-        margin-top: 40px;
+        margin: 0;
     }
-    
+    .medy-factory{
+        margin: 0px;
+    }
     .site-products-sell{
         max-width: 45.5%;
     }
@@ -1828,7 +1887,7 @@ del{
         max-width:540px
      }
      .icon-setting {
-         padding-left: 10px;
+         padding-left: 20px;
      }
      .logo a img {
          width: 100%;
@@ -1841,10 +1900,16 @@ del{
          font-size: 27px;
          line-height: 35px;
      }
+     .carousel-content-title strong{
+        font-size: 27px;
+    }
      .carousel-content{
          top: 16%;
          left: 10%
          
+     }
+     .medy-factory{
+         padding: 0;
      }
      .border-button-left{
         border-top: 55px solid #ffffff;
@@ -1857,7 +1922,7 @@ del{
         border-right: 39px solid #ffffff;
      }
      .shop-now {
-        margin-top: 15px;
+        margin-top: -10px;
      }
      .caurosel .caurosel_action button{
          margin: 0;
@@ -1897,6 +1962,10 @@ del{
         margin: auto;
         max-width: 90%;
      }
+     .factoty-content{
+         margin: 0;
+         justify-content: space-around;
+     }
      .site-products-sell{
         padding: 0 14.5px 0 14px; 
      }
@@ -1907,14 +1976,33 @@ del{
         max-width: 25%;
         padding: 10px;
      }
+     .footer-top-title{
+         padding: 0;
+         text-align: center;
+     }
+     .contact-us-footer .footer-top-title1{
+         text-align: center;
+     }
      .contact-us-footer, .company-footer, .categories-footer, .quick-link{
         max-width: 42%;
+     }
+     .menu-footer ul {
+         text-align: center;
      }
      .bottom2 img {
          width: 40%;
      }
      .bottom2 p{
          font-size: 10px;
+     }
+     .company-footer .content-footer-wrapper .menu-footer ul{
+         padding: 0;
+     }
+     .categories-footer .content-footer-wrapper .menu-footer ul{
+         padding: 0;
+     }
+     .quick-link .content-footer-wrapper .menu-footer ul{
+        padding: 0;
      }
  }
  @media(max-width:540px){
@@ -2040,7 +2128,7 @@ del{
         line-height: 30px;
     }
     .shop-now{
-        margin-top: 10px;
+        margin-top: -70px;
     }
     .sub-carousel-content{
         font-size: 11px;
@@ -2320,16 +2408,20 @@ del{
 }
 @media (max-width:376px){
     .container{
-        max-width: 332px;
+        max-width: 328px;
     }
     .search-header{
         max-width: 250px;
+        margin: 0px;
     }
     .search-category {
         max-width: 280px;
     }
     .factoty-content-wrapper{
         flex:auto;
+    }
+    .carousel-content-title strong{
+        font-size: 12px;
     }
     .menu2{
         margin-right: 15px;
@@ -2349,6 +2441,9 @@ del{
     .search-category{
         max-width: 275px;
     }
+    #countdown{
+        left: 0px;
+    }
     .example-text input[type="text"]{
         min-width: 300px;
         text-align: center;
@@ -2356,6 +2451,13 @@ del{
     .example-text input[type="submit"]{
       top:123%;
       left: 36%;
+    }
+    .footer-top-title1{
+        text-align: center;
+    }
+    .footer-top-title{
+        padding: 0px;
+        text-align: center;
     }
     .sub-contact-us{
         text-align: left;
@@ -2366,26 +2468,66 @@ del{
     .accessories-content {
         left: 30px;
     }
-  
+    .contact-us-footer .footer-top-title1{
+        text-align: center;
+    }
+    .form-text-email{
+        padding: 0;
+    }
 }
 @media (max-width:320px){
 
     .container {
-        max-width: 288px;
+        max-width: 273px;
+    }
+    .email-icon i{
+        font-size: 8px;
+    width: 16px;
+    height: 16px;
+    line-height: 16px;
+    }
+    .tele-icon i {
+        font-size: 8px;
+        width: 16px;
+        height: 16px;
+        line-height: 16px;
+        }
+    .adress-icon i {
+        font-size: 8px;
+        width: 16px;
+        height: 16px;
+        line-height: 16px;
+        }
+        .content .left ul li{
+            margin-left:10px
+        }
+    .carousel-content-title{
+        line-height: 25px;
+    }
+    .content .left{
+        margin: 0;
     }
     .search-header{
         margin-left: 0;
-        max-width: 200px;
+        max-width: 195px;
+    }
+    .select{
+        margin-left: 0px;
+    }
+    .icon-setting{
+        padding-left: 5px;
+        padding-right: 5px;
     }
     .shop-now{
         margin-top: 0;
+        padding: 0;
+    }
+    .title-hot{
+        font-size: 24px;
     }
     .img-discount{
         margin-left: 14px;
         max-width: 260px;
-    }
-    .carousel-content{
-        top:4%;
     }
     .img-accessories{
        
@@ -2400,6 +2542,10 @@ del{
         max-width: 40%;
     }
     .bottom2 p {
+        font-size: 6px;
+        font-weight: 500;
+    }
+    .bottom2 a {
         font-size: 6px;
         font-weight: 500;
     }
