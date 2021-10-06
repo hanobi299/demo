@@ -24,7 +24,7 @@ a{
 .container{
     max-width: 1140px;
     margin: 0 auto;
-    width: 100%;
+
 
 }
 .content{
@@ -1675,7 +1675,7 @@ del{
         padding: 0 0 0 15px;
     }
     .img-deal{
-        max-width: none;
+        max-width: 98%;
     }
     .carousel-content{
         top: 18%;
@@ -1870,8 +1870,8 @@ del{
         max-width:540px;
      }
      .search-header{
-    max-width: 286px;
-    margin-left: 20px;
+    max-width: 273px;
+    margin-left: 15px;
      }
      select {
          font-size: 10px;
@@ -1890,11 +1890,14 @@ del{
          padding-left: 20px;
      }
      .logo a img {
-         width: 100%;
+         max-width: 100%;
      }
-     .menu-title li{
-         margin-left: 10px;
+     .menu-title {
+         display: none;
      }
+     .menu2{
+         display: block;
+    }
      .carousel-content-title {
          max-width: 50%;
          font-size: 27px;
@@ -2029,7 +2032,7 @@ del{
      }
      #countdown{
         top: 65%;
-         width: 100%;
+         left:88px;
        
      }
      .text-product-hotdeal{
@@ -2176,9 +2179,6 @@ del{
     }
     .factoty-content{
         margin: 0 -15px;
-    }
-    .factoty-content-wrapper{
-        padding: 0 15px;
     }
     .medy-factory{
         margin: 45px 0;
@@ -2354,7 +2354,8 @@ del{
         font-size: 9px;
     }
     .factoty-content-wrapper{
-        flex: 0 0 40%;
+        max-width: 35%;
+        margin-left: 20px;
     }
     .bottom2 p {
         font-size: 8px;
@@ -2373,6 +2374,9 @@ del{
     .title-hotdeal{
         font-size: 27px;
     }
+    .carousel-content-title strong{
+        font-size: 13px;
+    }
     .discount{
         margin-left: 0;
     }
@@ -2388,15 +2392,14 @@ del{
         margin-top: 10px
     }
     .img-discount{
-       
-        max-width: 342px;
-        margin-left: 18px;
+        max-width: 358px;
+        margin-left: 10px;
 
     }
     .img-accessories{
        
-    max-width: 342px;
-    margin-left: 18px;
+    max-width: 358px;
+    margin-left: 10px;
     margin-top: 10px;
     }
     .discount-content h2{
@@ -2428,11 +2431,11 @@ del{
     }
     .img-discount{
        
-        max-width: 300px;
+        max-width: 308px;
     }
     .img-accessories{
        
-    max-width: 300px;
+    max-width: 308px;
 
     }
     .search-header{
@@ -2442,7 +2445,7 @@ del{
         max-width: 275px;
     }
     #countdown{
-        left: 0px;
+        left: 60px;
     }
     .example-text input[type="text"]{
         min-width: 300px;
@@ -2511,12 +2514,22 @@ del{
         margin-left: 0;
         max-width: 195px;
     }
+    #countdown{
+        left: 33px;
+    }
     .select{
         margin-left: 0px;
     }
     .icon-setting{
         padding-left: 5px;
         padding-right: 5px;
+    }
+    .factoty-content-wrapper{
+        max-width: 65%;
+        margin: 0 auto;
+    }
+    .medy-factory{
+        margin:10px 0;
     }
     .shop-now{
         margin-top: 0;
@@ -2526,13 +2539,13 @@ del{
         font-size: 24px;
     }
     .img-discount{
-        margin-left: 14px;
+        margin-left: 5px;
         max-width: 260px;
     }
     .img-accessories{
        
     max-width: 260px;
-    margin-left: 14px;
+    margin-left: 5px;
     }
     .example-text input[type="text"]{
         padding-left: 0;
